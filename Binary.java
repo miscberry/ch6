@@ -15,13 +15,11 @@ public class Binary {
 	
 	if(num==0)return "0";
 	while (num > 0) {
-	    System.out.println(rbinary);
 	    rbinary+=num%2;
 	    num/=2;
 	}
 	
 	for(int i = rbinary.length()-1; i >= 0; i--) {
-	    System.out.println(i);
 	    binary+=rbinary.charAt(i);
 	}
 	return binary;
